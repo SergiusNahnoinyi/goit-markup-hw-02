@@ -13,9 +13,17 @@
 /* Основной шрифт: Roboto */
 /* Вторичный шрифт: Raleway */
 
+:root {
+  --primary-text-color: #212121;
+  --hero-text-color: #fff;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-background-color: #fff;
+  --secondary-background-color: #2f303a;
+}
+
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif; /* Обявление по правилам идет такое: позиционированние элементов body, потом шрифт, потом фон. 
-  Поскольку по умолчанию браузер делает font-style - нормальным, а font-weight и font-size у каждой секции разный, то задавать их здесь пока нет смысла */
-  color: #212121; /* Нужно по ТЗ. Цвет фона макета белый, как и по умолчанию браузера, поэтому пока задавать не буду. Дальше задавай классы и стилизируй понемного. 
-  Переменные CSS задашь в конце, когда поймешь что повторяется*/
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  color: #212121;
+  background-color: #fff;
 }

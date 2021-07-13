@@ -27,3 +27,7 @@ body {
   color: var(--primary-text-color);
   background-color: var(--primary-background-color);
 }
+
+ul {
+  list-style: none;
+}

@@ -124,3 +124,9 @@ button:focus {
   line-height: 1.7;
   color: var(--secondary-text-color);
 }
+/* Стилизация секции "Чем мы занимаемся" */
+.services-title {
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}

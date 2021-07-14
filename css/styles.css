@@ -107,3 +107,20 @@ button:focus {
     --accent-color
   ); /* По макету видно, что при наведении цвет фона меняется на синий акцент */
 }
+/* Стилизация секции "Особенности" */
+.features-list .title {
+  /* font-weight: bold; */ /* Title по стандарту bold*/
+  font-size: 14px;
+  line-height: 1.2;
+  /* letter-spacing: 0.03em; */ /* Унаследовано от body */
+  text-transform: uppercase;
+  /* color: var(--primary-text-color); */ /* Унаследовано от body */
+}
+
+.features-list .text {
+  /* font-style: normal; */ /* p по стандарту normal */
+  /* font-weight: normal; */ /* p по стандарту normal */
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--secondary-text-color);
+}

@@ -186,3 +186,16 @@ button:focus {
 .company-adress .link:focus {
   color: var(--accent-color);
 }
+/* Стилизация секции "Портфолио работ" */
+.portfolio-list .project-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-list .project-description {
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--secondary-text-color);
+}

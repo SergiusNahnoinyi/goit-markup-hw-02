@@ -150,3 +150,39 @@ button:focus {
   text-align: center;
   color: var(--secondary-text-color);
 }
+/* Стилизация Footer */
+.footer {
+  background-color: var(--secondary-background-color);
+}
+
+.footer .company-name {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  color: white; /* Цвет текста для ссылок не наследуется. Если свойство не наследуется, то такое свойство для элемента надо задать отдельно. */
+  text-decoration: none;
+}
+
+.footer .company-name-accent {
+  color: var(--accent-color);
+}
+.company-adress {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.7;
+  color: white;
+}
+.company-adress .link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.company-adress .link:hover,
+.company-adress .link:focus {
+  color: var(--accent-color);
+}

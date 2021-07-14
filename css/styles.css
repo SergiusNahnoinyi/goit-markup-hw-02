@@ -75,3 +75,35 @@ ul {
 .site-contacts .link:focus {
   color: var(--accent-color);
 }
+/* Cтилизация блока-героя */
+.hero {
+  background-color: var(--secondary-background-color);
+  text-align: center;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--hero-text-color);
+}
+/* Стили всех кнопок на макете одинаковые, поэтому достаточно одного класса */
+button {
+  font-family: inherit; /* Особенность кнопки в том, что она не унаследует стиль, поэтому нужно задавать */
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  background-color: #f5f4fa;
+  cursor: pointer; /*По ТЗ поинтер при наведении*/
+}
+
+button:hover,
+button:focus {
+  color: var(--hero-text-color);
+  background-color: var(
+    --accent-color
+  ); /* По макету видно, что при наведении цвет фона меняется на синий акцент */
+}

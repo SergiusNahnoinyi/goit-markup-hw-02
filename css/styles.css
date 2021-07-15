@@ -5,7 +5,7 @@
 /* Акцент шрифта: #2196F3 */
 
 /* Опеределяем палитру цветов фона */
-/* Основной цвет фона: #FFFFFF */ /* То, чего больше всего в макете - является основным */
+/* Основной цвет фона: #FFFFFF */
 /* Вторичный цвет фона: #2F303A */
 /* Третий цвет фона: #F5F4FA */
 
@@ -38,9 +38,7 @@ ul {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-  color: var(
-    --primary-text-color
-  ); /* Цвет текста для ссылок не наследуется. Если свойство не наследуется, то такое свойство для элемента надо задать отдельно. */
+  color: var(--primary-text-color);
   text-decoration: none;
 }
 
@@ -89,37 +87,30 @@ ul {
   text-transform: uppercase;
   color: var(--hero-text-color);
 }
-/* Стили всех кнопок на макете одинаковые, поэтому достаточно одного класса */
+
 button {
-  font-family: inherit; /* Особенность кнопки в том, что она не унаследует стиль, поэтому нужно задавать */
+  font-family: inherit;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
   background-color: #f5f4fa;
-  cursor: pointer; /*По ТЗ поинтер при наведении*/
+  cursor: pointer;
 }
 
 button:hover,
 button:focus {
   color: var(--hero-text-color);
-  background-color: var(
-    --accent-color
-  ); /* По макету видно, что при наведении цвет фона меняется на синий акцент */
+  background-color: var(--accent-color);
 }
 /* Стилизация секции "Особенности" */
 .features-list .title {
-  /* font-weight: bold; */ /* Title по стандарту bold*/
   font-size: 14px;
   line-height: 1.2;
-  /* letter-spacing: 0.03em; */ /* Унаследовано от body */
   text-transform: uppercase;
-  /* color: var(--primary-text-color); */ /* Унаследовано от body */
 }
 
 .features-list .text {
-  /* font-style: normal; */ /* p по стандарту normal */
-  /* font-weight: normal; */ /* p по стандарту normal */
   font-size: 14px;
   line-height: 1.7;
   color: var(--secondary-text-color);
@@ -160,7 +151,7 @@ button:focus {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-  color: white; /* Цвет текста для ссылок не наследуется. Если свойство не наследуется, то такое свойство для элемента надо задать отдельно. */
+  color: white;
   text-decoration: none;
 }
 

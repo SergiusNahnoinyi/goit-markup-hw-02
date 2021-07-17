@@ -30,10 +30,6 @@ body {
   background-color: var(--primary-background-color);
   letter-spacing: 0.03em;
 }
-
-ul {
-  list-style: none;
-}
 /* Стилизация Header */
 .company-name {
   font-family: Raleway;

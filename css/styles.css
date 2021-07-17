@@ -151,7 +151,7 @@ body {
   background-color: var(--secondary-background-color);
 }
 
-.footer .company-name {
+.footer-company-name {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -159,15 +159,12 @@ body {
   text-decoration: none;
 }
 
-.footer .company-name-accent {
-  color: var(--accent-color);
-}
 .company-adress {
   font-style: normal;
   line-height: 1.7;
   color: white;
 }
-.company-adress .link {
+.company-link {
   font-style: normal;
   line-height: 1.7;
   letter-spacing: 0.02em;
@@ -175,8 +172,8 @@ body {
   text-decoration: none;
 }
 
-.company-adress .link:hover,
-.company-adress .link:focus {
+.company-link:hover,
+.company-link:focus {
   color: var(--accent-color);
 }
 /* Стилизация секции "Портфолио работ" */

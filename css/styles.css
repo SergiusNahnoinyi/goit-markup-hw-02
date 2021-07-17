@@ -106,11 +106,15 @@ body {
   background-color: var(--accent-color);
 }
 /* Стилизация секции "Особенности" */
-.features-list .title {
+.features-list {
+  list-style: none;
+}
+
+.features-title {
   text-transform: uppercase;
 }
 
-.features-list .text {
+.features-text {
   line-height: 1.7;
   color: var(--secondary-text-color);
 }

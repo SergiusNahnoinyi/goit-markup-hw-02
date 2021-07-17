@@ -55,7 +55,8 @@ ul {
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.site-nav .current {
   color: var(--accent-color);
 }
 /* Стилизация Site-contacts */

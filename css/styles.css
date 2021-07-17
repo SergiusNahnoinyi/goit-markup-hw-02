@@ -181,14 +181,40 @@ body {
   color: var(--accent-color);
 }
 /* Стилизация секции "Портфолио работ" */
-.portfolio-list .project-title {
+.button-list,
+.portfolio-list {
+  list-style: none;
+}
+
+.button {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--hero-text-color);
+  background-color: var(--accent-color);
+}
+
+.project-link {
+  text-decoration: none;
+}
+
+.project-title {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
+  color: var(--primary-text-color);
   letter-spacing: 0.06em;
 }
 
-.portfolio-list .project-description {
+.project-description {
   font-size: 16px;
   line-height: 1.9;
   color: var(--secondary-text-color);

@@ -123,6 +123,10 @@ body {
   font-size: 36px;
   text-align: center;
 }
+
+.services-list {
+  list-style: none;
+}
 /* Стилизация секции "Наша команда" */
 .team-title {
   font-size: 36px;

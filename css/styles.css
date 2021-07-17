@@ -62,7 +62,7 @@ ul {
 .site-contacts .link {
   font-weight: 500;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
+  color: var(--secondary-text-color);
   text-decoration: none;
 }
 
